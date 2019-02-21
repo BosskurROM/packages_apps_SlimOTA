@@ -1,4 +1,4 @@
-package com.aicp.aicpota;
+package io.maud.floko.ota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

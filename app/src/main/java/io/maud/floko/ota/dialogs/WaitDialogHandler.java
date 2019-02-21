@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.dialogs;
+package io.maud.floko.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

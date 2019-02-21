@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.xml;
+package io.maud.floko.ota.xml;
 
 import android.util.Xml;
 

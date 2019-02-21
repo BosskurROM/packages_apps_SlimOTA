@@ -15,7 +15,7 @@
  */
 
 
-package com.aicp.aicpota;
+package io.maud.floko.ota;
 
 import android.app.Activity;
 import android.content.res.TypedArray;

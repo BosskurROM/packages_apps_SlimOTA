@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.tasks;
+package io.maud.floko.ota.tasks;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.os.AsyncTask;
 
-import com.aicp.aicpota.tasks.CheckUpdateTask;
-import com.aicp.aicpota.utils.OTAUtils;
+import io.maud.floko.ota.tasks.CheckUpdateTask;
+import io.maud.floko.ota.utils.OTAUtils;
 
 public class OTAService extends JobService {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.fragments;
+package io.maud.floko.ota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.aicp.aicpota.R;
-import com.aicp.aicpota.configs.AppConfig;
-import com.aicp.aicpota.configs.LinkConfig;
-import com.aicp.aicpota.configs.OTAVersion;
-import com.aicp.aicpota.dialogs.WaitDialogFragment;
-import com.aicp.aicpota.tasks.CheckUpdateTask;
-import com.aicp.aicpota.utils.OTAUtils;
-import com.aicp.aicpota.xml.OTALink;
+import io.maud.floko.ota.R;
+import io.maud.floko.ota.configs.AppConfig;
+import io.maud.floko.ota.configs.LinkConfig;
+import io.maud.floko.ota.configs.OTAVersion;
+import io.maud.floko.ota.dialogs.WaitDialogFragment;
+import io.maud.floko.ota.tasks.CheckUpdateTask;
+import io.maud.floko.ota.utils.OTAUtils;
+import io.maud.floko.ota.xml.OTALink;
 
 import java.util.List;
 

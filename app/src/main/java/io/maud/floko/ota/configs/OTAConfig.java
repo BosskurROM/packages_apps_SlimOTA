@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.configs;
+package io.maud.floko.ota.configs;
 
 import android.content.Context;
 
-import com.aicp.aicpota.utils.OTAUtils;
+import io.maud.floko.ota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

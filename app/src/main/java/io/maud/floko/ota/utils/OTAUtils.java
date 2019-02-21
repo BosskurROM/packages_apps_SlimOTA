@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.utils;
+package io.maud.floko.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.util.Log;
 import android.widget.Toast;
 import android.os.SystemProperties;
 
-import com.aicp.aicpota.configs.OTAConfig;
+import io.maud.floko.ota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.File;

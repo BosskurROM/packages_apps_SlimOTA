@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.tasks;
+package io.maud.floko.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -29,16 +29,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.aicp.aicpota.MainActivity;
-import com.aicp.aicpota.R;
-import com.aicp.aicpota.configs.AppConfig;
-import com.aicp.aicpota.configs.LinkConfig;
-import com.aicp.aicpota.configs.OTAConfig;
-import com.aicp.aicpota.configs.OTAVersion;
-import com.aicp.aicpota.dialogs.WaitDialogHandler;
-import com.aicp.aicpota.utils.OTAUtils;
-import com.aicp.aicpota.xml.OTADevice;
-import com.aicp.aicpota.xml.OTAParser;
+import io.maud.floko.ota.MainActivity;
+import io.maud.floko.ota.R;
+import io.maud.floko.ota.configs.AppConfig;
+import io.maud.floko.ota.configs.LinkConfig;
+import io.maud.floko.ota.configs.OTAConfig;
+import io.maud.floko.ota.configs.OTAVersion;
+import io.maud.floko.ota.dialogs.WaitDialogHandler;
+import io.maud.floko.ota.utils.OTAUtils;
+import io.maud.floko.ota.xml.OTADevice;
+import io.maud.floko.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota;
+package io.maud.floko.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.aicp.aicpota.configs.LinkConfig;
-import com.aicp.aicpota.dialogs.WaitDialogFragment;
-import com.aicp.aicpota.fragments.SlimOTAFragment;
+import io.maud.floko.ota.configs.LinkConfig;
+import io.maud.floko.ota.dialogs.WaitDialogFragment;
+import io.maud.floko.ota.fragments.SlimOTAFragment;
 
 public class MainActivity extends BaseActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {

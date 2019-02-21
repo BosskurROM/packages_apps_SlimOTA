@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.configs;
+package io.maud.floko.ota.configs;
 
 import android.app.AlarmManager;
 import android.app.job.JobInfo;
@@ -24,9 +24,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.aicp.aicpota.R;
-import com.aicp.aicpota.tasks.OTAService;
-import com.aicp.aicpota.utils.OTAUtils;
+import io.maud.floko.ota.R;
+import io.maud.floko.ota.tasks.OTAService;
+import io.maud.floko.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

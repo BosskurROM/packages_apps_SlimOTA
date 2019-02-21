@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aicp.aicpota.dialogs;
+package io.maud.floko.ota.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.aicp.aicpota.R;
+import io.maud.floko.ota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 
